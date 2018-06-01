@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My JavaScript Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="container text-center">
+        <h2>JavaScript Calcultor</h2>
+        <div class="main-display">
+            <div class="user-entry">
+                0
+            </div>
+            <div class="review"><span class="bottom-right">0</span></div>
+        </div>
+        <div class="buttons-area row">
+            <div class="col-sm-3 top3rows"><button class="AC">AC</button></div>
+            <div class="col-sm-3 top3rows"><button class="CE">CE</button></div>
+            <div class="col-sm-3 top3rows"><button class="division" value="/">/</button></div>
+            <div class="col-sm-3 top3rows"><button class="multiplication"  value="*">*</button></div>
+
+            <div class="col-sm-3 top3rows"><button class="7" value="7">7</button></div>
+            <div class="col-sm-3 top3rows"><button class="8" value="8">8</button></div>
+            <div class="col-sm-3 top3rows"><button class="9" value="9">9</button></div>
+            <div class="col-sm-3 top3rows"><button class="subtraction" value="-">-</button></div>
+
+            <div class="col-sm-3 top3rows"><button class="4" value="4">4</button></div>
+            <div class="col-sm-3 top3rows"><button class="5" value="5">5</button></div>
+            <div class="col-sm-3 top3rows"><button class="6" value="6">6</button></div>
+            <div class="col-sm-3 top3rows"><button class="addition" value="+">+</button></div>
+            
+            <div class="col-sm-9 row buttons-area2">
+
+                <div class="col-sm-4 bot2rows"><button class="1" value="1">1</button></div>
+                <div class="col-sm-4 bot2rows"><button class="2" value="2">2</button></div>
+                <div class="col-sm-4 bot2rows"><button class="3" value="3">3</button></div>
+
+                <div class="col-sm-8 zero-col"><button class="zero" value="0">0</button></div>
+                <div class="col-sm-4 bot2rows"><button class="decimal" value=".">.</button></div>
+
+            </div>
+            <div class="col-sm-3 button-area3 equal-col">
+                <button class="equal">=</button>
+            </div>
+            <div class="footer">by Chi Luu</div> 
+        </div>
+    </div>
+</body>
+</html>
